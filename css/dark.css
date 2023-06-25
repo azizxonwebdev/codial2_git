@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+
+}
+body{
+    background: #141D2F;
+}
+.container{
+    width: 730px;
+}
+.navbar{
+    margin: 10px auto;
+}
+.navbar .logo{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 26px;
+    font-family: Space Mono;
+    font-weight: 700;
+}
+.navbar .switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .switch a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: all .4s;
+}
+.navbar .switch a span i{
+    color: #fff;
+}
+.navbar .switch a:hover{
+    color: #c8c5c5;
+}
+.navbar .switch a:hover .navbar .switch a span i{
+    color: #000;
+}
+/* search */
+.search button{
+    height: 45px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+}
+.search .form-control{
+    height: 45px;
+    background: #1E2A47;
+}
+
+/* view */
+.view{
+    padding: 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    background: #1E2A47;
+    border-radius: 10px;
+}
+.view .lhead .logo img{
+    border-radius: 100%;
+}
+.view .about_git{
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    color: #fff;
+}
+.date {
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+.count{
+    color: #fff;
+}
+.view .about_git .left_info .user{
+    color: #0079FF;
+    text-decoration: none;
+}
+.view .text{
+    color: #fff;
+    margin: 25px auto;
+}
+.view .subscription{
+    width: 480px;
+    height: 85px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #141D2F;
+}
+
+.view .subscription span{
+    font-weight: 700;
+
+}
+.view .links {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.view .links .lhead{
+    display: flex;
+    flex-direction: column;
+}
+.view .links .rhead{
+    display: flex;
+    flex-direction: column;
+}
+.view .links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 8px 0;
+}
+.view .links a i{
+    color: #4B6A9B;
+}
